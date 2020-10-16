@@ -6,7 +6,7 @@
 [F-13] EDA with Pokemon data([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-13%20EDA.ipynb))
 * 노드의 진행 과정에 따라 등장하는 여러 `Pandas` 메소드들을 정리하고 분석해 보았습니다.
     * `reset_index()`, `isna()`, `isnull()`, `unique()` 등
-    * 설명을 따로 드리진 않았지만 `iloc()`과 `head()`, `tail()`이라는 메소드가 등장합니다.
+    * 설명을 따로 드리진 않았지만 `iloc`과 `head()`, `tail()`이라는 메소드가 등장합니다.
     * `iloc`과 `loc`은 어떤 차이점이 있을까요?
 * 정규표현식, pandas 조건문 사용하기, pandas Series와 dataframe을 살펴보았습니다.
 
