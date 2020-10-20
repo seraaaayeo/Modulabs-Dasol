@@ -3,7 +3,7 @@
 
 ## 오늘의 자료
 ### 10/17 토요일
-[F-14] Data Preprocessing([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Recap-ML.ipynb))
+[F-14], [F-13], [E-2], [F-9] Machine Learning Process ([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Recap-ML.ipynb))
 * [F-9]에서 머신러닝 라이브러리 `sklearn`, [F-12]에서 데이터를 시각화하기 위한 `matplotlib`과 `seaborn` 라이브러리를 배운 후, [E-2]에서 아이리스 데이터를 이용한 머신러닝 과정을 실습하였습니다. 이후 [F-13]에서 캐글 포켓몬 데이터를 이용한 EDA, [F-14]에서 `Normalization`, `One-hot Encoding` 등 데이터 전처리 방법을 구체적으로 살펴보았습니다. 머신러닝에 대해 어렴풋이 감이 오시나요?? 순서대로 복습해봅시다.
     * `sklearn` Toy dataset인 wine data를 가지고 sklearn의 데이터 표현법을 살펴봅시다.
     * dataFrame 형태인 iris 데이터를 가지고 classification을 진행해봅시다. **진행 순서**를 잘 기억해주세요.
