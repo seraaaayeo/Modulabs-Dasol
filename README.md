@@ -7,7 +7,7 @@
 * `OpenCV`를 이용하여 노트북 웹캠으로 비디오를 읽어오고 실시간으로 처리하여 출력해 보았습니다. OpenCV 코드 설명을 확인해보세요.([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Study/ch18_OpenCV(1).ipynb))
 * OpenCV를 이용하여 `Histogram`을 그려보았습니다. 그런데, 히스토그램이란 무엇일까요?
     * [히스토그램이란?](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-18%20CV-Histogram.ipynb)
-    * 히스토그램을 직접(!!) 구현해보면 그 구조를 좀 더 명확히 이해할 수 있습니다. [라이브러리 없이 히스토그램을 계산하는 코드를 확인해 볼까요?]()
+    * 히스토그램을 직접(!!) 구현해보면 그 구조를 좀 더 명확히 이해할 수 있습니다. [라이브러리 없이 히스토그램을 계산하는 코드를 확인해 볼까요?](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-18%20CV-Histogram.c)
 
 ## 지난 자료들
 ### 10/20 화요일
