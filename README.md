@@ -2,13 +2,20 @@
 [모두의연구소 X sba 아카데미] 아이펠 기본과정 여다솔방 실습자료 및 추가자료, 개인 정리 노트
 
 ## 오늘의 자료
+### 10/28 수요일
+[F-18] Pillow와 OpenCV로 이미지 처리하기
+* `OpenCV`를 이용하여 노트북 웹캠으로 비디오를 읽어오고 실시간으로 처리하여 출력해 보았습니다. OpenCV 코드 설명을 확인해보세요.([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Study/ch18_OpenCV(1).ipynb))
+* OpenCV를 이용하여 `Histogram`을 그려보았습니다. 그런데, 히스토그램이란 무엇일까요?
+    * [히스토그램이란?](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-18%20CV-Histogram.ipynb)
+    * 히스토그램을 직접(!!) 구현해보면 그 구조를 좀 더 명확히 이해할 수 있습니다. [라이브러리 없이 히스토그램을 계산하는 코드를 확인해 볼까요?]()
+
+## 지난 자료들
 ### 10/20 화요일
 [F-13], [F-14] Kaggle 시작하기([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Kaggle.ipynb))
 * EDA와 데이터 전처리를 진행해 보았습니다. 그러나 해당 노드의 데이터만 가지고는 손에 익숙해지지가 않죠! 직접 캐글에서 여러 데이터를 분석하고 전처리하여 모델에 학습시켜 봅시다. 그 전에, 캐글이 무엇인지, 어떻게 쓰는지 알아볼까요??
     * 데이터 사이언스 competition 플랫폼 : `Kaggle`이란?
     * Kaggle 대회 참가하기
 
-## 지난 자료들
 ### 10/17 토요일
 [F-14], [F-13], [E-2], [F-9] Machine Learning Process ([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Recap-ML.ipynb))
 * [F-9]에서 머신러닝 라이브러리 `sklearn`, [F-12]에서 데이터를 시각화하기 위한 `matplotlib`과 `seaborn` 라이브러리를 배운 후, [E-2]에서 아이리스 데이터를 이용한 머신러닝 과정을 실습하였습니다. 이후 [F-13]에서 캐글 포켓몬 데이터를 이용한 EDA, [F-14]에서 `Normalization`, `One-hot Encoding` 등 데이터 전처리 방법을 구체적으로 살펴보았습니다. 머신러닝에 대해 어렴풋이 감이 오시나요?? 순서대로 복습해봅시다.
