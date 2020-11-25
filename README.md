@@ -3,7 +3,7 @@
 
 ## 오늘의 자료
 ### 11/25 수요일
-[F-28] CNN based pre-trained model : [VGG, ResNet 실습]()
+[F-28] CNN based pre-trained model : [VGG, ResNet 실습](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-28%20VGG%2CResNet.ipynb)
 * VGG, GoogLeNet, AlexNet, ResNet 등은 2010년 이후 ImageNet Challenge에서 등장한 CNN 기반의 모델이라고 설명드렸습니다. 이처럼 이미 만들어진 네트워크들이 다양하게 공개되어 있는데요, 이를 `pre-trained model`이라고 합니다. Pre-trained model은 `keras` 등을 이용하여 import하여 사용할 수 있습니다. 이 중 `VGG16`와 `ResNet-50`을 직접 구현하여 연습해봅시다.
 * 이러한 Deep Network들은 용어 그대로 **Deep**하며 파라미터 또한 굉장히 많습니다. 이를 CPU로 학습시키려면 시간이 무지 오래 걸려요...! [`Tensorflow-gpu`를 사용 가능한지 체크해보세요!](./Check_tf_gpu.ipynb)
 
