@@ -1,13 +1,18 @@
-# AIFFEL Basic 여다솔방 자료
-[모두의연구소 X sba 아카데미] 아이펠 기본과정 여다솔방 실습자료 및 추가자료, 개인 정리 노트
+# AIFFEL Basic 여다솔방
+[모두의연구소 X sba 아카데미] 아이펠 기본과정 여다솔 퍼실이의 추가자료
 
 ## 오늘의 자료
+### 11/28 토요일
+[F-30] Edge detector와 Convolution 연산
+* 여러 번 CNN을 설명하며 convolution에 대해 설명했는데요, 오늘은 특히 **Edge detector**로서의 컨볼루션 연산과 필터에 대해서도 설명을 드렸습니다. 혹시 궁금하신 분이 있을까봐 edge detector를 직접! 컨볼루션 연산을 수행해보았습니다. [엣지 검출기 각각 결과물 확인하기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-30%20Convolution.ipynb)
+* 하지만 이러한 필터를 통한 컨볼루션 연산은 전통적인 이미지 처리 방식이고, cnn에서는 `Back Propagation`으로 인한 파라미터 업데이트가 이루어진다고 말씀드렸습니다! 필터를 통한 컨볼루션 연산은 필터링(filtering)이라고 불리고, 주로 이미지 처리(Image processing)에서 사용된답니다.
+
+## 지난 자료들
 ### 11/25 수요일
 [F-28] CNN based pre-trained model : [VGG, ResNet 실습](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/F-28%20VGG%2CResNet.ipynb)
 * VGG, GoogLeNet, AlexNet, ResNet 등은 2010년 이후 ImageNet Challenge에서 등장한 CNN 기반의 모델이라고 설명드렸습니다. 이처럼 이미 만들어진 네트워크들이 다양하게 공개되어 있는데요, 이를 `pre-trained model`이라고 합니다. Pre-trained model은 `keras` 등을 이용하여 import하여 사용할 수 있습니다. 이 중 `VGG16`와 `ResNet-50`을 직접 구현하여 연습해봅시다.
 * 이러한 Deep Network들은 용어 그대로 **Deep**하며 파라미터 또한 굉장히 많습니다. 이를 CPU로 학습시키려면 시간이 무지 오래 걸려요...! [`Tensorflow-gpu`를 사용 가능한지 체크해보세요!](./Check_tf_gpu.ipynb)
 
-## 지난 자료들
 ### 10/28 수요일
 [F-18] Pillow와 OpenCV로 이미지 처리하기
 * `OpenCV`를 이용하여 노트북 웹캠으로 비디오를 읽어오고 실시간으로 처리하여 출력해 보았습니다. OpenCV 코드 설명을 확인해보세요.([바로가기](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Study/ch18_OpenCV(1).ipynb))
@@ -39,13 +44,14 @@
 
 [F-13] 노드는 굉장히 길고 코드가 많습니다. 실습 코드를 한 번씩 정리해보세요! [이런식으로요!](https://github.com/seraaaayeo/Modulabs-Dasol/blob/master/Study/ch13_EDA(Exploratory_Data_Analysis).ipynb)
 
-### 실습자료
+### 실습자료 List
 * [F-6] Numpy 실습
 * [F-9] Sklearn으로 연습하는 Machine Learning Pipeline
 * [E-2] Confusion matrix 연습
 * [F-13] 포켓몬 데이터로 연습하는 EDA와 Pandas 메소드
 * [F-18] OpenCV로 웹캠 읽어오기, 히스토그램 그리기
 * [F-28] VGG, ResNet 구현하기
+* [F-30] Edge detector : Convolution filtering
 
 ### 복습자료
 * [F-3] 파이썬 문법 정리
